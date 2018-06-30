@@ -74,7 +74,7 @@ var x;
 console.log(typeof x);
 */
 
-/* Operator Precedence */
+/* Operator Precedence 
 
 var now = 2018;
 var yearSogyal = 1999;
@@ -100,3 +100,21 @@ x *= 2;
 console.log(x)
 y /= 2;
 console.log(y);
+
+*/
+
+
+/** Coding Challenge 1 */
+
+var markHeight = 1.5;
+var markWeight = 60;
+
+var johnHeight = 1.7;
+var johnWeight = 50;
+
+var markBMI = markWeight / (markHeight * markHeight) ;
+var johnBMI = johnWeight / (johnHeight * johnHeight);
+console.log(markBMI,johnBMI);
+
+var bmiCheck = markBMI > johnBMI;
+console.log("Is Mark's BMI higher than John's? " + bmiCheck);
