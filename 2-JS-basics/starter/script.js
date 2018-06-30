@@ -104,7 +104,7 @@ console.log(y);
 */
 
 
-/** Coding Challenge 1 */
+/** Coding Challenge 1 
 
 var markHeight = 1.5;
 var markWeight = 60;
@@ -116,5 +116,26 @@ var markBMI = markWeight / (markHeight * markHeight) ;
 var johnBMI = johnWeight / (johnHeight * johnHeight);
 console.log(markBMI,johnBMI);
 
-var bmiCheck = markBMI > johnBMI;
-console.log("Is Mark's BMI higher than John's? " + bmiCheck);
+if(markBMI > johnBMI){
+    console.log("Mark's BMI is higher than John's.");
+}else{
+    console.log("John's BMI is higher than Mark.");
+}
+*/
+
+/* If Else Statements
+
+var firstName = "Sogyal";
+var civilStatus = "Single";
+
+if(civilStatus === "Married"){
+    alert(firstName + " is Married");
+}else{
+    alert(firstName + " is " + civilStatus);
+}
+
+var isMarried = true;
+if(isMarried){
+    console.log(firstName + " is married.");
+}
+*/
