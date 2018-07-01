@@ -196,3 +196,28 @@ switch(true){
         console.log(firstName + " is a man.");
 }
 */
+
+/** Truthy and Falsy values and equality operators. 
+
+// Falsy values = undefined, null, 0, '', NaN;
+// Truthy Values = Not Falsy Values
+
+var height;
+
+height = 23;
+
+if(height){
+    console.log("Variable is defined.");
+}else{
+    console.log("Variable is undefined.");
+}
+
+//Equality Operator
+
+if(height == '23'){
+    console.log("True");
+}else if(height === '23'){
+    console.log("False");
+}
+
+*/
