@@ -324,3 +324,33 @@ console.log(john.indexOf(23));
 var isTeacher = john.indexOf('teacher') === -1 ? 'John is not a teacher.' : 'John is a teacher';    
 console.log(isTeacher);
 */
+
+
+/* Coding Challenge 3 
+
+
+function tipCalculator(billAmount){
+    var percentage;
+    if(billAmount<50){
+        percentage = .2;
+    }else if(billAmount>=50 && billAmount<200){
+        percentage = .15;
+    }else{
+        percentage = .1;
+    }
+
+    return percentage*billAmount;
+}
+
+var bills = [124,48,268];
+
+var tips = [tipCalculator(bills[0]),
+            tipCalculator(bills[1]),
+            tipCalculator(bills[2])];
+
+var finalValues = [ bills[0] + tips[0],
+                    bills[1] + tips[1],
+                    bills[2] + tips[2]];
+ 
+console.log(tips,finalValues);
+*/
