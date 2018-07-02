@@ -288,3 +288,39 @@ var whatDoYouDo = function(job,firstName){
 console.log(whatDoYouDo('driver','Sogyal'));
 
 */
+
+/* Arrays 
+
+// Initialize new array
+var names = ['Sogyal','James','Mark'];
+var years = new Array(1969,1999,1904);
+
+console.log(names[2]);
+console.log(names.length);
+
+//Mutating Arrays
+names[1] = 'Sam';
+names[names.length] = 'Smith';
+console.log(names);
+
+//Different Data Types
+var john = ['John','Smith',1990,'teacher',false];
+
+//push adds data to end of array.
+john.push('blue');
+
+//adds element to start of array.
+john.unshift('Mr.');
+console.log(john);
+
+//pop() removes last element of array.
+john.pop();
+//shift() removes first element of array.
+john.shift();
+console.log(john);
+
+console.log(john.indexOf(23));
+
+var isTeacher = john.indexOf('teacher') === -1 ? 'John is not a teacher.' : 'John is a teacher';    
+console.log(isTeacher);
+*/
