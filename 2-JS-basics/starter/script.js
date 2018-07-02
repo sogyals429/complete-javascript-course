@@ -241,3 +241,27 @@ if(johnAvg>mikeAvg && johnAvg<maryAvg){
     console.log("Its a draw.");
 }
 */
+
+/* Functions 
+
+var age = calculateAge(1999);
+console.log(age);
+
+function calculateAge(birthYear){
+    return 2018 - birthYear;
+}
+
+function yearsUntilRetirement(year,firstName){
+    
+    var age = calculateAge(year);
+    var retirement = 65 - age;
+
+    if(retirement>0){
+        console.log(firstName + " retires in " + retirement + " years.");
+    }else{
+        console.log(firstName + " is already retired.");
+    }
+}
+
+yearsUntilRetirement(1920,"Sogyal");
+*/
