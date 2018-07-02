@@ -384,3 +384,26 @@ user.lastName = 'Sherpa';
 user.birthYear = 1999;
 console.log(user);
 */
+
+
+/* Objects and Methods 
+
+
+var sogyal = {
+    firstName : "Sogyal",
+    lastName : "Sherpa",
+    birthYear : 1999,
+    family : ['Mother','Father', 'Sister'],
+    job: 'Student',
+    isMarried : false,
+    calcAge: function(){
+        var d = new Date();
+        var currentYear = d.getFullYear();
+        this.age =  currentYear - this.birthYear;
+    }
+};
+
+sogyal.calcAge();
+console.log(sogyal);
+*/
+
