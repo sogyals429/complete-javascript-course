@@ -221,3 +221,23 @@ if(height == '23'){
 }
 
 */
+
+/* Coding Challenge 2 
+var johnAvg = (89+120+103)/3;
+var mikeAvg = (116+94+123)/3;
+var maryAvg = (97+132+105)/3;
+
+console.log(johnAvg);
+console.log(mikeAvg);
+console.log(maryAvg);
+
+if(johnAvg>mikeAvg && johnAvg<maryAvg){
+    console.log("Mike is the winner with a score of: " + mikeAvg);    
+}else if(mikeAvg> johnAvg && maryAvg>johnAvg){
+    console.log("John is the winner with a score of: " + johnAvg);
+}else if(maryAvg>= johnAvg && maryAvg>= mikeAvg){
+    console.log("Mary is the winner with a score of: " + maryAvg);
+}else if(johnAvg == mikeAvg || maryAvg==johnAvg || maryAvg==mikeAvg){
+    console.log("Its a draw.");
+}
+*/
