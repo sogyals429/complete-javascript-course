@@ -354,3 +354,33 @@ var finalValues = [ bills[0] + tips[0],
  
 console.log(tips,finalValues);
 */
+
+/* Objects and Properties 
+
+//Object Literal
+var sogyal = {
+    firstName : "Sogyal",
+    lastName : "Sherpa",
+    birthYear : 1999,
+    family : ['Mother','Father', 'Sister'],
+    job: 'Student',
+    isMarried : false
+};
+
+console.log(sogyal.firstName);
+console.log(sogyal['lastName']);
+
+var x = 'birthYear';
+console.log(x);
+
+sogyal.job = 'Driver';
+sogyal['isMarried'] = true;
+console.log(sogyal);
+
+// new Object Syntax
+var user = new Object();
+user.firstName = 'Sogyal';
+user.lastName = 'Sherpa';
+user.birthYear = 1999;
+console.log(user);
+*/
