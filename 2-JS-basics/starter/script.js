@@ -265,3 +265,26 @@ function yearsUntilRetirement(year,firstName){
 
 yearsUntilRetirement(1920,"Sogyal");
 */
+
+/* Function Statements and Expressions 
+
+//Function Declaration
+//function whatDoYouDo(job,firstName){}
+
+//Function Expression
+var whatDoYouDo = function(job,firstName){
+    switch(job){
+        case 'teacher':
+            return firstName + ' teaches kids how to code.';
+        case 'driver':
+            return firstName + ' drives a car';
+        case 'coder':
+            return firstName + ' is a coder.';
+        default:
+            return firstName + ' does something else.';
+    }
+}
+
+console.log(whatDoYouDo('driver','Sogyal'));
+
+*/
