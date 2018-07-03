@@ -407,3 +407,36 @@ sogyal.calcAge();
 console.log(sogyal);
 */
 
+/* Coding Challenge 4
+var johnBmi = {
+    name : "John",
+    mass : 110,
+    height : 1.95,
+    calcBMI : function(){
+        this.BMI = this.mass / (this.height*this.height);
+        return this.BMI;
+    }
+};
+
+var markBmi = {
+    name : "Mark",
+    mass : 78,
+    height : 1.69,
+    calcBMI : function(){
+        this.BMI = this.mass / (this.height*this.height);
+        return this.BMI;
+    }
+};
+
+var johnBMI = johnBmi.calcBMI();
+var markBMI = markBmi.calcBMI();
+console.log(johnBMI,markBMI);
+
+if(johnBMI<markBMI){
+    console.log(markBmi.name + " has a higher BMI average " + markBMI);
+}else if(markBMI<johnBMI){
+    console.log(johnBmi.name + " has a higher BMI average " + johnBMI);
+}else{
+    console.log("Both have the same BMI " + markBMI + " " + johnBMI);
+}
+*/
