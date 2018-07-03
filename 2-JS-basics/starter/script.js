@@ -440,3 +440,42 @@ if(johnBMI<markBMI){
     console.log("Both have the same BMI " + markBMI + " " + johnBMI);
 }
 */
+
+/* Loops and Iteration */
+
+// for(var i=0;i<10;i++){
+//     console.log(i);
+// }
+
+/*
+// for Loop
+var names = ["Sogyal",'Sherpa',1999,'Student',false];
+for(var i=0;i<names.length;i++){
+    console.log(names[i]);
+}
+
+// While loop
+var x=0;
+while(x<names.length){
+    console.log(names[x]);
+    x++;
+}
+*/
+
+/*continue and break statements
+var names = ["Sogyal",'Sherpa',1999,'Student',false];
+for(var i=0;i<names.length;i++){
+    if(typeof names[i] !== 'string') continue;
+    console.log(names[i]);
+}
+
+// Looping backwards
+for(var i=names.length-1;i>=0;i--){
+    console.log(names[i]);
+}
+
+// for(var i=0;i<names.length;i++){
+//     if(typeof names[i] !== 'string') break;
+//     console.log(names[i]);
+// }
+*/
